@@ -1,73 +1,112 @@
 body{
-    margin: 0px;
+margin: 0px;
+
 }
 h1{
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-family: 'Poppins', sans-serif;
 }
 p{
-    font-family: 'Poppins', sans-serif;
-    color: dimgray;
+font-family: 'Poppins', sans-serif;
+color: dimgray;
 }
 
 .half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
 }
 
 .half-width img{
-    width: 100%;
-    margin: 10px 20px;
-    padding: 10px;
+width: 100%;
+margin: 10px 20px;
+padding: 10px;
+
 }
 section{
-  height: 800px;
-    padding-bottom: 100px;
+height: 600px;
+padding-bottom: 100px;
 }
 
 .body-area{
-    margin-top: 90px;
-    padding: 20px;
+
+padding: 20px;
 }
 .link-button{
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: 700;
-  background-image: linear-gradient(45deg, hotpink, DeepPink );
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 10px;
+color: white;
+font-weight: 700;
+background-image: linear-gradient(45deg, hotpink, DeepPink );
 }
 .top-banner{
-    background-image: url(images/header-bg.png);
+background-image: url(images/header-bg.png);
 }
 .biography-banner{
-    background-image:url(images/biography-bg.png);
+background-image:url(images/biography-bg.png);
 }
 .work-area{
-    background-image: url(images/latest-work-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+background-image: url(images/latest-work-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+margin: 50px 20px;
 }
 .work-area img{
-    width: 100%;
+width: 100%;
+height: 100%;
 }
 .work-box{
-   border-radius: 10px;
-   margin: 10px;
-   padding: 5px;
-   width: 30%;
-   height: 50%;
-   float: left;
-   border: 7px solid blue;
+border-radius: 10px;
+margin: 5px;
+width: 30%;
+height: 60%;
+float: left;
 }
-.work-box-shadow{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    background-color: white;
-    height: 50%;
+.client{
+width: 40%;
+text-align: center;
+margin: auto;
+padding-bottom: 30px;
 }
-.footer{
-    background-image: url(images/footer-bg.png);
+.client p{
+color: black;
+text-align: center;
+font-size: 15px;
+}
+.footer-area{
+background-image: url(images/footer-bg.png);
+margin: 20px;
+}
+.contact{
+width: 50%;
+height: 20%;
+padding: 10px 20px;
+border-radius: 15px;
+color: white;
+font-weight: 700;
+text-align: center;
+background-image: linear-gradient(45deg, hotpink, DeepPink );
+margin: auto;
+}
+.contact h3{
+    font-family: cursive;
+}
+.mail{
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-weight: 700;
+}
+.contact a:visited{
+color: cyan;
+}
+
+
+footer{
+text-align: center;
+font-size: 12px;
+font-family: 'Poppins', sans-serif;
 }
